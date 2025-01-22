@@ -1,0 +1,11 @@
+/* <div className="product-list-container">
+<h1 className="title">Our Pokemon Cards</h1>
+<div className="product-grid">
+  {products.map((product) => (
+    <div className="product-card" key={product.id}>
+      <img src={product.image} alt={product.name} className="product-image" />
+      <h2 className="product-title">{product.name}</h2>
+    </div>
+  ))}
+</div>
+</div> */
